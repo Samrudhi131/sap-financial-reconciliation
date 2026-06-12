@@ -1,7 +1,7 @@
 # SAP Financial Reconciliation Automation
 
 ## Business Context
-A mid-sized bank's finance team manually reconciled 10,000+ GL entries monthly against vendor invoices and bank statements, a process taking 3–4 days and prone to human error. This project automates that reconciliation pipeline end-to-end, surfacing exceptions in a Power BI dashboard for faster resolution.
+A mid-sized bank's finance team manually reconciled 10,000+ GL entries monthly against vendor invoices and bank statements, a process taking 3-4 days and prone to human error. This project automates that reconciliation pipeline end-to-end, surfacing exceptions in a Power BI dashboard for faster resolution.
 
 ## Approach
 - Modeled mock SAP FI tables (BKPF, BSEG) in MySQL to mirror real SAP General Ledger structure
