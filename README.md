@@ -1,7 +1,7 @@
 # SAP Financial Reconciliation Automation
 
 ## Business Context
-A mid-sized bank's finance team manually reconciled 10,000+ GL entries monthly against vendor invoices and bank statements — a process taking 3–4 days and prone to human error. This project automates that reconciliation pipeline end-to-end, surfacing exceptions in a Power BI dashboard for faster resolution.
+A mid-sized bank's finance team manually reconciled 10,000+ GL entries monthly against vendor invoices and bank statements, a process taking 3–4 days and prone to human error. This project automates that reconciliation pipeline end-to-end, surfacing exceptions in a Power BI dashboard for faster resolution.
 
 ## Approach
 - Modeled mock SAP FI tables (BKPF, BSEG) in MySQL to mirror real SAP General Ledger structure
@@ -61,6 +61,6 @@ openpyxl==3.1.2
 
 ## SAP Alignment
 This project mirrors the data structures and reconciliation processes used in **SAP FI (Financial Accounting)** module:
-- `BKPF` — Accounting Document Header
-- `BSEG` — Accounting Document Segment
+- `BKPF` - Accounting Document Header
+- `BSEG` - Accounting Document Segment
 - Exception workflow mirrors SAP's standard clearing process (T-Code: F-03, F.13)
